@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.masthead {
+  height: 500px;
+  width: auto;
+  background-color: lightblue;
+}
+
+.welcome-wide {
+  height: 20em;
+  background-color: green;
+}
