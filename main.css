@@ -27,3 +27,11 @@ ul {
   height: 20em;
   background-color: green;
 }
+
+.interests {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30%;
+  padding-right: 30%;
+  /* list-style-type: armenian; */
+}
