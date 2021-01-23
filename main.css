@@ -9,10 +9,7 @@ body {
 
 nav {
   padding: 20px;
-  /* position: fixed; */
-  /* bottom: 0; */
   background-color: white;
-  /* width: 100%; */
 }
 
 nav h1 {
@@ -20,9 +17,6 @@ nav h1 {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   color: #41B3A3;
-  /* right: 50%; */
-  /* margin-top: 10px; */
-  /* margin-bottom: 10px; */
 }
 
 header {
@@ -34,6 +28,15 @@ header {
   color: white;
   font-size: 30px;
   font-family: Montserrat, sans-serif;
+
+  /* Adds animation to the header */
+  animation-name: example;
+  animation-duration: 20s;
+}
+
+@keyframes example {
+  from {background-color: darkblue;}
+  to {background-color: #E27D60;}
 }
 
 .social {
