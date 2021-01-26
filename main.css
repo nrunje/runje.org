@@ -1,3 +1,4 @@
+/* Ensuring 0 margin and padding for entire document */
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +6,26 @@
 
 /* ===========NAV BAR=========== */
 nav {
-  padding: 20px;
+  overflow: hidden;
   background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
 nav h1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
   text-align: center;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   color: #41B3A3;
+}
+
+/* Properties of the main body */
+main {
+  margin-top: 45px;
 }
 
 /* ===========MAIN HEADING BANNER=========== */
