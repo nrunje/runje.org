@@ -53,7 +53,7 @@ header {
 .social {
   padding: 75px;
   color: white;
-  background-color: #41B3A3;
+  background-color: #359689;
   text-align: center;
   font-family: Montserrat, sans-serif;
 }
@@ -109,26 +109,24 @@ header {
 .writing {
   padding: 75px 25px;
   color: white;
-  background-color: darkgrey;
+  background-color: #f0f0f0;
   text-align: center;
   font-family: Montserrat, sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .writing h1 {
+  text-transform: uppercase;
   font-family: Cambria, serif;
-  /* font-weight: 100; */
   margin-bottom: 40px;
-  /* left: 30%; */
-  /* margin-left: 10%; */
+  color: #325d99;
 }
 
 .writing .card {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 25%;
-  background-color: #22447a;
+  background-color: #325d99;
   margin: 50px;
   display: inline-block;
 }
@@ -139,7 +137,7 @@ header {
 }
 
 .writing .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
 .writing .container-card {
