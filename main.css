@@ -149,7 +149,6 @@ header {
 /* Screen specific sizes */
 @media (max-width: 763px) {
   .writing {
-    /* padding: 25px 0px; */
   }
 
   .writing .card {
