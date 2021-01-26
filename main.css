@@ -157,12 +157,14 @@ header {
     width: 70%;
     background-color: #22447a;
     margin: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: inline-block;
   }
 
   .writing h1 {
     margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
