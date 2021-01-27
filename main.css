@@ -51,14 +51,18 @@ header {
 
 /* ===========SOCIAL MEDIA=========== */
 .social {
-  background-color: darkgrey;
+  background-color: #229466;
   text-align: center;
   padding: 45px 10px 75px 10px;
   font-family: Montserrat, sans-serif;
+  /* color: white; */
 }
 
 .social h3 {
   padding-bottom: 30px;
+  color: white;
+  font-family: "Courier New", serif;
+  font-size: 35px;
 }
 
 .social .social-button {
@@ -70,6 +74,7 @@ header {
   border-radius: 10px;
   border: 2px white solid;
   margin: 0px 20px;
+  color: #093954;
 }
 
 .social .social-button img {
