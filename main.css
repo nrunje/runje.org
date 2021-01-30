@@ -182,7 +182,7 @@ header {
 
 }
 
-@media (min-width: 641px) and (max-width: 1023px) {
+@media (min-width: 641px) and (max-width: 1919px) {
   .writing .card {
     width: 525px;
     /* background-color: green; */
