@@ -46,26 +46,21 @@ header {
   background-image: url("images/oculus-new-york.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom right;
-}
-
-@media (max-width: 1200px) {
-  header {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
+  background-position: bottom;
 }
 
 @media (max-width: 763px) {
   header {
     padding-top: 400px;
     font-size: 20px;
+    background-position: right bottom;
   }
 }
 
-@media (max-width: 764px) and (max-width: 1700px) {
+@media (max-width: 764px) and (max-width: 1275px) {
   header {
     padding-top: 600px;
+    background-position: right;
   }
 }
 
