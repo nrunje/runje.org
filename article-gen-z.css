@@ -46,7 +46,7 @@ header {
   background-image: url("images/oculus-new-york.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom right;
 }
 
 @media (max-width: 1200px) {
