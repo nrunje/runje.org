@@ -60,13 +60,11 @@ header {
   padding-top: 300px;
   padding-bottom: 300px;
   text-align: center;
-  /* background: #E27D60; */
-  background-image: url("images/lincoln-memorial.jpg");
+  background: #E27D60;
+  /* background-image: url("images/lincoln-memorial.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 0%;
-
-
+  background-position: 0% 0%; */
 
   color: white;
   font-size: 30px;
@@ -136,9 +134,6 @@ header {
     margin-bottom: 30px;
   }
 }
-
-
-
 
 /* ===========WRITING SAMPLES=========== */
 .writing {
