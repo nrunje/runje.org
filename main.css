@@ -144,24 +144,24 @@ header {
 .writing {
   text-align: center;
   font-family: Montserrat, sans-serif;
-  background-color: #ededed;
+  background-color: #e0dedc;
 }
 
 .writing h1 {
   display: block;
-  color: black;
-  /* margin: 15px 20px; */
-  padding: 15px 20px;
+  color: #325d99;
+  text-transform: uppercase;
+  padding: 35px 20px;
 }
 
 .writing .card {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 700px;
   background-color: #325d99;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 75px;
   display: inline-flex;
   justify-content: space-between;
   color: white;
@@ -184,15 +184,25 @@ header {
 @media screen and (max-width: 640px) {
   .writing .card {
     width: 85%;
-    /* background-color: red; */
+    margin-bottom: 40px;
+  }
+
+  .writing h1 {
+    padding: 15px 20px;
   }
 
 }
 
-@media (min-width: 641px) and (max-width: 1919px) {
+@media (min-width: 641px) and (max-width: 1910px) {
   .writing .card {
     width: 525px;
-    /* background-color: green; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 45px;
+  }
+
+  .writing h1 {
+    padding: 15px 20px;
   }
 
 }
