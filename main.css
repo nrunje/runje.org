@@ -25,32 +25,6 @@ nav h1 {
   color: #41B3A3;
 }
 
-/* nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav h1 {
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  padding: 10px 0px;
-}
-
-.nav-links {
-  display: flex;
-  width: 30%;
-  background-color: red;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-} */
-
 /* Properties of the main body */
 main {
   margin-top: 45px;
@@ -58,16 +32,10 @@ main {
 
 /* ===========MAIN HEADING BANNER=========== */
 header {
-  /* margin-top: 65px; */
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background: #E27D60;
-  /* background-image: url("images/lincoln-memorial.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% 0%; */
-
   color: white;
   font-size: 30px;
   font-family: Montserrat, sans-serif;
@@ -80,6 +48,22 @@ header {
 @keyframes example {
   from {background-color: darkblue;}
   to {background-color: #E27D60;}
+}
+
+.clock-button {
+  display: inline-flex;
+  width: 225px;
+  height: 75px;
+  background: darkgrey;
+  font-size: 24px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.clock-button:hover {
+  background-color: turquoise;
 }
 
 /* ===========SOCIAL MEDIA=========== */
