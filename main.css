@@ -12,42 +12,18 @@ nav {
   top: 0;
   width: 100%;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav h1 {
   padding-top: 8px;
   padding-bottom: 8px;
-  text-align: center;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   color: #41B3A3;
 }
-
-/* nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav h1 {
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  padding: 10px 0px;
-}
-
-.nav-links {
-  display: flex;
-  width: 30%;
-  background-color: red;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-} */
 
 /* Properties of the main body */
 main {
@@ -56,16 +32,10 @@ main {
 
 /* ===========MAIN HEADING BANNER=========== */
 header {
-  /* margin-top: 65px; */
   padding-top: 300px;
   padding-bottom: 300px;
   text-align: center;
   background: #E27D60;
-  /* background-image: url("images/lincoln-memorial.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% 0%; */
-
   color: white;
   font-size: 30px;
   font-family: Montserrat, sans-serif;
@@ -78,6 +48,22 @@ header {
 @keyframes example {
   from {background-color: darkblue;}
   to {background-color: #E27D60;}
+}
+
+.clock-button {
+  display: inline-flex;
+  width: 225px;
+  height: 75px;
+  background: darkgrey;
+  font-size: 24px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.clock-button:hover {
+  background-color: turquoise;
 }
 
 /* ===========SOCIAL MEDIA=========== */
@@ -202,6 +188,83 @@ header {
 
 }
 
+
+/* ==========Technical demos============= */
+.technical-demos {
+  background-color: #0202a6;
+  /* padding-bottom: 25px; */
+}
+
+.technical-demos h3 {
+  text-align: center;
+  /* margin-bottom: -25px; */
+  padding-top: 15px;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 4px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.demo-container {
+  /* background-color: green; */
+  padding: 15px 0px 35px;
+}
+
+.demos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  /* background-color: blue; */
+  flex-wrap: wrap;
+  /* margin: 50px 0px 0px; */
+}
+
+.demos img {
+  width: 1080px;
+  box-sizing: border-box;
+  border: 8px solid #262626;
+  border-radius: 4px;
+  /* background-color: #262626; */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.demos img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
+
+.demos span {
+  text-align: center;
+  width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 20px 10px;
+  background-color: #cc0000;
+  border-radius: 6px;
+  color: white;
+  font-family: "Courier New", serif;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .demos img {
+    max-width: 100%;
+    padding: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+  }
+}
+
+/* VIDEO TESTING */
+.video-test {
+  height: 720px;
+  color: white;
+  background: url("images/0001-0100.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 /* ===========FOOTER=========== */
 footer {
