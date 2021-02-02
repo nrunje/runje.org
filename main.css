@@ -202,6 +202,65 @@ header {
 
 }
 
+.technical-demos {
+  background-color: #0202a6;
+  /* padding-bottom: 25px; */
+}
+
+.technical-demos h3 {
+  text-align: center;
+  /* margin-bottom: -25px; */
+  padding-top: 15px;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 4px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.demo-container {
+  background-color: green;
+  padding: 15px 0px 35px;
+}
+
+.demos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  /* background-color: blue; */
+  flex-wrap: wrap;
+  /* margin: 50px 0px 0px; */
+}
+
+.demos img {
+  max-width: 1080px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #262626;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.demos span {
+  text-align: center;
+  width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 20px 10px;
+  background-color: #cc0000;
+  border-radius: 20px;
+  color: white;
+  font-family: "Courier New", serif;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .demos img {
+    max-width: 720px;
+    padding: 0px;
+  }
+}
 
 /* ===========FOOTER=========== */
 footer {
