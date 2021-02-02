@@ -12,12 +12,14 @@ nav {
   top: 0;
   width: 100%;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav h1 {
   padding-top: 8px;
   padding-bottom: 8px;
-  text-align: center;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   color: #41B3A3;
@@ -202,6 +204,8 @@ header {
 
 }
 
+
+/* ==========Technical demos============= */
 .technical-demos {
   background-color: #0202a6;
   /* padding-bottom: 25px; */
@@ -234,8 +238,9 @@ header {
 }
 
 .demos img {
-  max-width: 1080px;
-  padding: 8px;
+  width: 1080px;
+  box-sizing: border-box;
+  border: 8px solid #262626;
   border-radius: 4px;
   background-color: #262626;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
@@ -257,9 +262,20 @@ header {
 
 @media screen and (max-width: 1280px) {
   .demos img {
-    max-width: 720px;
+    max-width: 100%;
     padding: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
   }
+}
+
+/* VIDEO TESTING */
+.video-test {
+  height: 720px;
+  color: white;
+  background: url("images/0001-0100.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* ===========FOOTER=========== */
