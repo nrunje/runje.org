@@ -32,8 +32,8 @@ main {
 
 /* ===========MAIN HEADING BANNER=========== */
 header {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 300px;
+  padding-bottom: 300px;
   text-align: center;
   background: #E27D60;
   color: white;
@@ -207,7 +207,7 @@ header {
 }
 
 .demo-container {
-  background-color: green;
+  /* background-color: green; */
   padding: 15px 0px 35px;
 }
 
@@ -226,8 +226,12 @@ header {
   box-sizing: border-box;
   border: 8px solid #262626;
   border-radius: 4px;
-  background-color: #262626;
+  /* background-color: #262626; */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.demos img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
 }
 
 .demos span {
@@ -238,7 +242,7 @@ header {
   margin-top: 10px;
   padding: 20px 10px;
   background-color: #cc0000;
-  border-radius: 20px;
+  border-radius: 6px;
   color: white;
   font-family: "Courier New", serif;
   font-size: 30px;
