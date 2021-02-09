@@ -218,7 +218,6 @@ header button:active {
 }
 
 .demo-container {
-  /* background-color: green; */
   padding: 15px 0px 35px;
 }
 
@@ -226,10 +225,7 @@ header button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
-  /* background-color: blue; */
   flex-wrap: wrap;
-  /* margin: 50px 0px 0px; */
 }
 
 .demos img {
@@ -237,7 +233,6 @@ header button:active {
   box-sizing: border-box;
   border: 8px solid #262626;
   border-radius: 4px;
-  /* background-color: #262626; */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 }
 
@@ -288,7 +283,6 @@ header button:active {
 
 /* ===========FOOTER=========== */
 footer {
-  /* height: 75px; */
   background-color: #041936;
   color: white;
   padding: 24px 18px;
