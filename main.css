@@ -257,11 +257,11 @@ header button:active {
   margin-right: 50px;
   margin-top: 10px;
   padding: 20px 10px;
-  background-color: #cc0000;
+  background-color: #bf3b2a;
   border-radius: 6px;
   color: white;
-  font-family: Georgia, serif;
-  font-style: italic;
+  font-family: Cambria, serif;
+  /* font-style: italic; */
   font-size: 30px;
 }
 
