@@ -45,8 +45,10 @@ header {
   background-position: center;
 
   /* Adds animation to the header */
-  /* animation-name: example;
-  animation-duration: 20s; */
+  animation-name: example;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 header button {
@@ -59,8 +61,8 @@ header button:active {
 }
 
 @keyframes example {
-  from {background-color: darkblue;}
-  to {background-color: #E27D60;}
+  from {background-position: left;}
+  to {background-position: right;}
 }
 
 .local-time h5 {
@@ -236,8 +238,8 @@ header button:active {
   flex-wrap: wrap;
 }
 
-.demos img {
-  width: 1080px;
+.demos img, video {
+  max-width: 1024px;
   box-sizing: border-box;
   border: 8px solid #262626;
   border-radius: 4px;
@@ -264,18 +266,24 @@ header button:active {
 }
 
 .demos .demo-text-container p {
-  text-align: left;
   font-family: Georgia, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  text-align: justify;
+  text-justify: inter-wored;
 }
 
 @media screen and (max-width: 1280px) {
-  .demos img {
+  .technical-demos h3 {
+    font-size: 46px;
+    margin: 0 10px;
+  }
+  .demos img, video {
     max-width: 100%;
     padding: 0px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    border: none;
   }
 }
 
