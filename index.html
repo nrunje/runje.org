@@ -16,11 +16,6 @@
   <!-- Navigation -->
   <nav>
     <h1>Nicholas J. Runje</h1>
-    <!-- <ul class="nav-links">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact Me</a></li>
-    </ul> -->
   </nav>
 
 <main>
@@ -28,7 +23,7 @@
   <!-- Header -->
   <header>
     <h3>Welcome to My Portfolio!</h3>
-    <!-- <br>
+    <br>
     <div class="clock-container">
 
     <div class="local-time">
@@ -40,19 +35,16 @@
 
     <div class="clock-settings">
       <h3>Want a different time format?</h3>
-      <div class="clock-button" id="12-hour-time">
+      <button class="clock-button" id="clock-button">
         <span>12-hour time</span>
-      </div>
-      <div class="clock-button" id="24-hour-time">
-        <span>24-hour time</span>
-      </div>
+      </button>
     </div>
 
-    </div> -->
+    </div>
   </header>
 
   <!-- Social media section -->
-  <div class="social">
+  <section class="social">
     <h3>Find my social platforms:</h3>
 
     <a href="https://github.com/nrunje" target="_blank">
@@ -76,10 +68,10 @@
     </div>
     </a>
 
-  </div>
+  </section>
 
   <!-- Writing section -->
-  <div class="writing">
+  <section class="writing">
     <h1>Selections from my writing:</h1>
     <div class="writing-samples">
       <div class="card">
@@ -102,24 +94,32 @@
         </a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="technical-demos">
+  <section class="technical-demos">
     <h3>Technical demos</h3>
     <div class="demo-container">
 
       <div class="demos">
         <img src="images/0001-0100.gif" alt="Blender animation">
-        <span>Blender fluid demo</span>
+        <div class="demo-text-container">
+          <span>Blender fluid dynamics</span>
+          <p>This is a demonstration I created of Blender's fluid dynamics system.</p>
+        </div>
       </div>
       <br>
-      <!-- <div class="demos">
-        <img src="images/statue.jpg" alt="Froggit">
-        <span>Placeholder</span>
-      </div> -->
+      <div class="demos">
+          <video src="images/froggit-recording.mp4" autoplay poster="Froggit" loop>
+
+          </video>
+          <div class="demo-text-container">
+          <span>Froggit</span>
+          <p>This Frogger recreation is written entirely in Python.</p>
+        </div>
+      </div>
 
     </div>
-  </div>
+  </section>
 
   <!-- <div class="video-test">
   </div> -->
@@ -129,8 +129,6 @@
   </footer>
 
 </main>
-<script src="script.js">
-
-</script>
+<script src="script.js"></script>
 </body>
 </html>
