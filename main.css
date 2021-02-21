@@ -60,6 +60,7 @@ header button:active {
   border: none;
 }
 
+/* Moves background image */
 @keyframes example {
   from {background-position: left;}
   to {background-position: right;}
