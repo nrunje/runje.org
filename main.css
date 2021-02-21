@@ -60,6 +60,7 @@ header button:active {
   border: none;
 }
 
+/* Moves background image */
 @keyframes example {
   from {background-position: left;}
   to {background-position: right;}
@@ -80,7 +81,6 @@ header button:active {
   align-items: center;
   text-transform: uppercase;
   margin-top: 15px;
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
 
 .clock-button:hover {
@@ -93,7 +93,6 @@ header button:active {
   text-align: center;
   padding: 45px 10px 75px 10px;
   font-family: Montserrat, sans-serif;
-  /* color: white; */
 }
 
 .social h3 {
@@ -180,7 +179,6 @@ header button:active {
 
 .writing .container-card {
   padding: 20px 16px;
-  /* height: 50px; */
 }
 
 @media screen and (max-width: 640px) {
@@ -213,12 +211,10 @@ header button:active {
 /* ==========Technical demos============= */
 .technical-demos {
   background-color: #0202a6;
-  /* padding-bottom: 25px; */
 }
 
 .technical-demos h3 {
   text-align: center;
-  /* margin-bottom: -25px; */
   padding-top: 15px;
   color: white;
   font-size: 50px;
@@ -257,11 +253,10 @@ header button:active {
   margin-right: 50px;
   margin-top: 10px;
   padding: 20px 10px;
-  background-color: #cc0000;
+  background-color: #bf3b2a;
   border-radius: 6px;
   color: white;
-  font-family: Georgia, serif;
-  font-style: italic;
+  font-family: Cambria, serif;
   font-size: 30px;
 }
 
