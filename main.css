@@ -39,7 +39,7 @@ header {
   color: white;
   font-size: 30px;
   font-family: Montserrat, sans-serif;
-  background-image: url("images/nasa-earth.jpg");
+  background-image: url("images/mountains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -74,13 +74,15 @@ header button:active {
   display: inline-flex;
   width: 225px;
   height: 75px;
-  background: darkgrey;
+  background: blue;
   font-size: 24px;
   border-radius: 15px;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
   margin-top: 15px;
+  cursor: default;
+  border: 2px white solid;
 }
 
 .clock-button:hover {
@@ -161,6 +163,7 @@ header button:active {
   width: 700px;
   background-color: #3868ab;
   margin-left: 20px;
+  border-radius: 15px;
   margin-right: 20px;
   margin-bottom: 75px;
   display: inline-flex;
